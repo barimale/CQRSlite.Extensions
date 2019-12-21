@@ -1,5 +1,5 @@
 # CQRSlite.Extensions
-Extensions of CQRSlite package: 
+Extensions for CQRSlite package: 
 ```
 https://github.com/gautema/CQRSlite
 ```
