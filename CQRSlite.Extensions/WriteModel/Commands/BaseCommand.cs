@@ -2,7 +2,7 @@
 using CQRSlite.Extensions.Common;
 using System;
 
-namespace SoundManager.CQRS.WriteModel.Commands
+namespace CQRSlite.Extensions.WriteModel.Commands
 {
     public abstract class BaseCommand : ICommand, IPersonified
     {
