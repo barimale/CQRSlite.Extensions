@@ -22,10 +22,10 @@ jobs:
       run: nuget setapikey ${{ secrets.NUGET_ORG_TOKEN }} -Source "https://api.nuget.org/v3/index.json"
 
     - name: Nuget Restore 
-      run: nuget restore .\CQRSlite.Extensions\CQRSlite.Extensions.sln
+      run: nuget restore .\CQRSlite.Extensions.sln
 
     - name: Build Solution
-      run: dotnet build .\CQRSlite.Extensions\CQRSlite.Extensions.sln --configuration Release
+      run: dotnet build .\CQRSlite.Extensions.sln --configuration Release
 
     - name: Nuget Pack
       run: nuget pack .\CQRSlite.Extensions\pack.nuspec -Properties Configuration=Release -OutputDirectory .\nugetPackages -Symbols -SymbolPackageFormat snupkg 
