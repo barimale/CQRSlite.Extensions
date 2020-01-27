@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
 		<metadata>
 			<id>CQRSlite.SQL.Extensions</id>
-			<version>1.0.1</version>
+			<version>1.0.2</version>
 			<description>Extensions of CQRSlite package provided as a set of features in the context of SQL read model.</description>
 			<authors>barimale</authors>
 			<owners>barimale</owners>
