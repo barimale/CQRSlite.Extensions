@@ -15,5 +15,6 @@ namespace CQRSlite.Extensions.ReadModel.Dtos
         public int Version { get; set; }
         public string ExecutorId { get; set; }
         public bool IsDeleted { get; set; }
+        public DateTime ExecutionTime { get; set; }
     }
 }
